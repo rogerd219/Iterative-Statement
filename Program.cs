@@ -25,7 +25,7 @@ namespace Iterative_Statement
                 for (int i = 0; i < value_of_input; i++)
                 {
                     // The console reads the final results
-                    Console.WriteLine("The value of the variable i in this iteration is " + i.ToString());
+                    Console.WriteLine("You have entered: " + value_of_input.ToString() + ". This is the current integer value in the loop: " + i.ToString());
                 }
                 // Ends program and VS studios brings up exit command
                 Console.ReadKey(true);
